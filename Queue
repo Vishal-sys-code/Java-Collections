@@ -8,3 +8,11 @@ SOME METHODS TO DISCUSS:
 add(): insert the element
 poll(): removes the element at the front end of the Queue
 peek(): returns the element at the front of the Queue
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Important Note:- 
+
+Java doesn't actually have a Queue Class, it's only an interface. The commonly implementation is Linked List, declare as: 
+
+                    Queue q = new LinkedList();

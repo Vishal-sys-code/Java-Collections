@@ -1,0 +1,26 @@
+1.) It can contains duplicate elements
+2.) It maintains the insertion order
+3.) It implements Queue and Deque interfaces. It can also used as Queue, Deque, Stack
+4.) It is not thread safe. You must explicitly synchronized concurrent modifications to the Linked List is multithreaded environment.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            ArrayList                                                       LinkedList
+
+1.) It is internally uses a dynamic array                        1.) It internally uses a Doubly Linked List
+    array to store elements.                                         to store the elements.
+
+2.) Manipulation with ArrayList is slow because                  2.) Manipulation with LinkedList is faster than
+    it internally uses an array, if any elements                     than ArrayList because it uses a Doubly Linked List
+    is removed from the array, all the bits are                      so no bit shifting is requored to memory.
+    shifted in memory.
+
+3.) ArrayList consume less memory than Linked List               3.) Linked List consumes more memory than an ArrayList because
+                                                                     it also stores the next and previous references along with the data
+
+4.) An ArrayList can act as a list only because it               4.) LinkedList can act as a list and queue both because it implements
+    implements list only.                                            Lists and Deque interfaces.
+
+5.) ArrayList is better for storing and accessing data           5.) LinkedList is better for manipulating data
