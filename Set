@@ -1,0 +1,28 @@
+1.) Contains no duplicacy
+2.) Set are of two types:- 
+
+        a.) Unordered Set :- HashSet
+        b.) Ordered Set :- TreeSet
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                                        UNORDERED SET [HASHMAP]
+
+1.) Works as Hashing
+2.) insert, delete, search in O(1)
+3.) No order for elements, so it return arbitarary order of elements while traversing
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+                                        ORDERED SET [TREESET]
+
+1.) Sorted in order OR order maintains while inserting the elements
+2.) insert, delete, search in O(log(n))
+
+Methods:- 
+
+first(): lowest element in the set
+last():  highest element in the set
+lower(): which returns the greatest element strictly less than the same element
+higher(): which returns the least element strictly greater than the same element
