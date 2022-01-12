@@ -1,0 +1,23 @@
+1.) Ordered Pair =====> (key,value)
+2.) Unique values but can repeat(duplicacy allows)
+
+Unordered Maps ==> HashMap ==> Hashing ==> O(1)
+Ordered Maps   ==> TreeMap ==> Sorted in order ==> O(log(N))
+
+
+
+---------------------------------------------------------------------------------------------------
+
+                                HashMap
+
+get(key) : returns the value associated with the key
+container(key) : checks whether a key exists in the map
+
+
+----------------------------------------------------------------------------------------------------
+
+                                TreeMap
+
+1.) firstKey() or firstEntry()  and  lastkey() or lastEntry()  :=> lowest and highest key respectively.
+2.) lowerkey() or lowerEntry()  and higherkey() or higherEntry()  :=>  returning lowest key strictly higher than the specified key OR return the highest key strictly lower than the specified key.
+
