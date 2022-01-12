@@ -1,0 +1,5 @@
+Insertion and Deletion in O(log(n))
+
+Priority Queue is based on comparator function. 
+
+By Default the lowest element is at the front of the Priority Queue
