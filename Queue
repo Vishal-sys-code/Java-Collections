@@ -1,0 +1,10 @@
+1.) Queue uses FIRST IN FIRST OUT principle as usual (FIFO)
+2.) Queue have 4 methods:- add,poll,peek
+3.) Complexity:- O(1)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+SOME METHODS TO DISCUSS: 
+
+add(): insert the element
+poll(): removes the element at the front end of the Queue
+peek(): returns the element at the front of the Queue

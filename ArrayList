@@ -1,0 +1,42 @@
+Important Points:- 
+
+1.) An ArrayList is resizable array, also called a dynamic array. It grows it size to accomodate new elements
+and shrinks the size when the elements are removed
+
+2.) ArrayList internally uses an array to store the elements
+
+3.) ArrayList allows duplicate and null values
+
+4.) ArrayList is an ordered collection, it maintains the order while insertion also.
+
+5.) We cannot create ArrayList like: int,char,boolean 
+    We have to create ArrayList like: Integer, Character, Boolean 
+
+6.) Java ArrayList is not synchronized. If multiple threads try to modify an ArrayList at sametime, then final 
+    outcome will be non-deterministic. You must explicitly synchronized access to an ArrayList of multiple threads are gonna modify it.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+SOME METHODS TO DISCUSS: 
+
+1.) add():- Inserting the new elements to the list
+2.) remove():- Removing the new elements to the list
+3.) set():- modify the elements at a particular index in ArrayList
+4.) get():- access the elements at a particular index in ArrayList
+5.) isEmpty():- to check if the list is empty or not
+6.) Sorting the List:- 
+    a.) Arrays.Sort(arr) ==> Static Sorting
+    b.) Collection.Sort(list)  ==> Dynamic Sorting
+
+7.) Traversing:- 
+
+    a.) While loop:- 
+        Iterator it = list.iterator()
+        while(it.hasNext()){
+            SOP(it.next())
+        }
+    
+    b.) For-Each Loop:-
+        for(Integer i : list){
+            SOP(i);
+        }

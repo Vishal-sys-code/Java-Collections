@@ -1,0 +1,14 @@
+1.) Stack uses LAST IN FIRST OUT principle as usual (LIFO)
+2.) Stack have 4 methods:- push, pop, top and peek
+3.) Complexity:- O(1)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
+
+SOME METHODS TO DISCUSS: 
+
+push(): Inserting the elements
+pop(): Deleting the elements
+top(): Topmost element of the stack
+peek(): return the Topmost element in the stack
+isEmpty(): checks if the stack is empty or not
+search(): search any element in the stack
+contains(): search any element and return T/F if the stack contains that element

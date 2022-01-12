@@ -1,0 +1,18 @@
+==> : extends 
+--> : implements
+
+1.) LIST, QUEUE, SET ==> COLLECTION
+
+2.) ArrayList --> LIST
+    LinkedList --> LIST
+    Vector --> LIST
+    Stack ==> Vector
+
+3.) Deque ==> QUEUE
+    ArrayDeque --> Deque
+    PriorityQueue --> QUEUE
+    LinkedList --> DeQue
+
+4.) SortedSet ==> SET
+    HashSet and LinkedHashSet --> SET
+    TreeSet --> SortedSet

@@ -1,0 +1,15 @@
+It is the child interface of the Collection interface.
+It inhibits a list type data-structure in which we can store the ordered collection of objects.
+
+Summary:- 
+    a.) Ordered Collection of objects
+    b.) Have duplicate values
+    c.) implements : ArrayList, LinkedList, Vector, Stack
+
+
+Examples:- 
+
+List <data_type> L1 = new ArrayList();
+List <data_type> L2 = new LinkedList();
+List <data_type> L3 = new Vector();
+List <data_type> L4 = new Stack();
