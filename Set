@@ -6,7 +6,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-                                        UNORDERED SET [HASHMAP]
+                                        UNORDERED SET [HASHSET]
 
 1.) Works as Hashing
 2.) insert, delete, search in O(1)
