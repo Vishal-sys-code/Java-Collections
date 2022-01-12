@@ -1,0 +1,10 @@
+Pronounced as "Deck"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DeQue:- Doubly Ended Queue => Combination of both stacks and queue.
+
+Deque supports both insertion and deletion from front and back in O(1).
+
+Class:- ArrayDeque
+
+Methods:-  addFirst(), removeFirst(), addLast(), removeLast(), peekFirst(), peekLast()
+
